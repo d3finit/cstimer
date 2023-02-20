@@ -2,7 +2,7 @@
 
 var exportFunc = execMain(function() {
 	var wcaLoginUrl = 'https://www.worldcubeassociation.org/oauth/authorize?client_id=63a89d6694b1ea2d7b7cbbe174939a4d2adf8dd26e69acacd1280af7e7727554&response_type=code&scope=public&redirect_uri=' + encodeURI(location.href.split('?')[0]);
-	var gglLoginUrl = 'https://accounts.google.com/o/oauth2/v2/auth?client_id=738060786798-octf9tngnn8ibd6kau587k34au263485.apps.googleusercontent.com&response_type=token&scope=https://www.googleapis.com/auth/drive.appdata&redirect_uri=' + encodeURI(location.href.split('?')[0]);
+	var gglLoginUrl = 'https://accounts.google.com/o/oauth2/v2/auth?client_id=85250359234-je921eanf9lp3l3em7sikfcj37sf1k8d.apps.googleusercontent.com&response_type=token&scope=https://www.googleapis.com/auth/drive.appdata&redirect_uri=' + encodeURI(location.href.split('?')[0]);
 
 	var exportDiv = $('<div />');
 	var exportTable = $('<table class="expOauth expUpDown">');
@@ -144,7 +144,7 @@ var exportFunc = execMain(function() {
 	function uploadData(id) {
 		return new Promise(function(resolve, reject) {
 			var compExpString = LZString.compressToEncodedURIComponent(expString);
-			$.post('https://cstimer.net/userdata.php', {
+			$.post('https://cstimer.koder09.repl.co/userdata.php', {
 				'id': id,
 				'data': compExpString
 			}, function(val) {
@@ -205,7 +205,7 @@ var exportFunc = execMain(function() {
 				}
 			}
 			target.html('Import Data...');
-			$.post('https://cstimer.net/userdata.php', {
+			$.post('https://cstimer.koder09.repl.co/userdata.php', {
 				'id': id,
 				'offset': idx - 1
 			}, dataCallback, 'json').error(onerr).always(revert);
@@ -228,7 +228,7 @@ var exportFunc = execMain(function() {
 		};
 
 		if (kernel.getProp('expp')) {
-			$.post('https://cstimer.net/userdata.php', {
+			$.post('https://cstimer.koder09.repl.co/userdata.php', {
 				'id': id,
 				'cnt': 1
 			}, cntCallback, 'json').error(onerr).always(revert);

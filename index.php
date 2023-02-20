@@ -9,6 +9,8 @@
   <link rel="manifest" href="cstimer.webmanifest">
 <?php include('lang/langDet.php');?>
   <link rel='stylesheet' type='text/css' href='css/style.css'>
+     <link rel='stylesheet' type='text/css' href='css/cstimer.css'>
+     <link rel='stylesheet' type='text/css' href='css/feather.css'>
   <script type="text/javascript" src="js/lib/jquery-1.8.0.js"></script>
   <script type="text/javascript" src="js/lib/utillib.js"></script>
   <script type="text/javascript" src="js/lib/sha256.js"></script>
@@ -65,6 +67,138 @@
   <script type="text/javascript" src="js/twisty/twistypyra.js"></script>
   <script type="text/javascript" src="js/twisty/twistyminx.js"></script>
   <script type="text/javascript" src="js/twisty/qcube.js"></script>
+     <script src="js/scrambles/pbls.js" type="module"></script>
+<script src="js/scrambles/sq2.js" type="module"></script>
+<script src="js/scrambles/fto.js" type="module"></script>
+<script src="js/scrambles/kilom.js" type="module"></script>
+<script src="js/scrambles/guildford.js" type="module"></script>
+<script src="js/scrambles/observer.js" type="module"></script>
+<script src="js/scrambles/clock.js" type="module"></script>
+<script src="js/scrambles/init.js" type="module"></script>
+<script src="js/scrambles/types.js" type="module"></script>
+<script src="js/scrambles/lubes.js" type="module"></script>
+<script src="js/ui/code.js" type="module"></script>
+<script src="js/ui/2021.js" type="module"></script>
+<script src="js/ui/codes/vccode.js" type="module"></script>
+<script src="js/ui/codes/blacknwhite.js" type="module"></script>
+<script src="js/ui/codes/sccode.js" type="module"></script>
+<script src="js/ui/codes/colorful.js" type="module"></script>
+<script src="js/ui/codes/bioxmas2020.js" type="module"></script>
+<script src="js/ui/init.js" type="module"></script>
+<script src="js/ui/colors.js" type="module"></script>
+<script src="js/ui/inspection.js" type="module"></script>
+<script src="js/ui/dialog.js" type="module"></script>
+<script src="js/ui/lang.js" type="module"></script>
+<script src="js/ui/logo.js" type="module"></script>
+<script src="js/tools/logos.js" type="module"></script>
+<script src="js/tools/init.js" type="module"></script>
+<script src="js/tools/records/static/wcarecords.js" type="module"></script>
+<script src="js/tools/records/init.js" type="module"></script>
+<script src="js/tools/records/parser.js" type="module"></script>
+<script src="js/tools/image.js" type="module"></script>
+<script src="js/voices/index.js" type="module"></script>
+<script src="js/voices/events.js" type="module"></script>
+<script src="js/voices/people/mv.js" type="module"></script>
+<script src="js/voices/people/rc.js" type="module"></script>
+<script src="js/voices/people/td.js" type="module"></script>
+<script src="js/voices/people/fm.js" type="module"></script>
+<script src="js/voices/people/scr.js" type="module"></script>
+<script src="js/voices/people/tc.js" type="module"></script>
+<script src="js/voices/people/md.js" type="module"></script>
+<script src="js/voices/people/lcc.js" type="module"></script>
+<script src="js/voices/people/gm.js" type="module"></script>
+<script src="js/voices/people/tm.js" type="module"></script>
+<script src="js/voices/people/ol.js" type="module"></script>
+<script src="js/voices/people/rcb.js" type="module"></script>
+<script src="js/voices/people/vc.js" type="module"></script>
+<script src="js/voices/people/sc.js" type="module"></script>
+<script src="js/voices/people/cs.js" type="module"></script>
+<script src="js/voices/people/cc.js" type="module"></script>
+<script src="js/voices/people/ab.js" type="module"></script>
+<script src="js/voices/init.js" type="module"></script>
+
+     <script src="js/scrambles/pbls.js" type="module"></script>
+<script src="js/scrambles/sq2.js" type="module"></script>
+<script src="js/scrambles/fto.js" type="module"></script>
+<script src="js/scrambles/kilom.js" type="module"></script>
+<script src="js/scrambles/guildford.js" type="module"></script>
+<script src="js/scrambles/observer.js" type="module"></script>
+<script src="js/scrambles/clock.js" type="module"></script>
+<script src="js/scrambles/init.js" type="module"></script>
+<script src="js/scrambles/types.js" type="module"></script>
+<script src="js/scrambles/lubes.js" type="module"></script>
+<script src="js/ui/code.js" type="module"></script>
+<script src="js/ui/2021.js" type="module"></script>
+<script src="js/ui/codes/vccode.js" type="module"></script>
+<script src="js/ui/codes/blacknwhite.js" type="module"></script>
+<script src="js/ui/codes/sccode.js" type="module"></script>
+<script src="js/ui/codes/colorful.js" type="module"></script>
+<script src="js/ui/codes/bioxmas2020.js" type="module"></script>
+<script src="js/ui/init.js" type="module"></script>
+<script src="js/ui/colors.js" type="module"></script>
+<script src="js/ui/inspection.js" type="module"></script>
+<script src="js/ui/dialog.js" type="module"></script>
+<script src="js/ui/lang.js" type="module"></script>
+<script src="js/ui/logo.js" type="module"></script>
+<script src="js/tools/logos.js" type="module"></script>
+<script src="js/tools/init.js" type="module"></script>
+<script src="js/tools/records/static/wcarecords.js" type="module"></script>
+<script src="js/tools/records/init.js" type="module"></script>
+<script src="js/tools/records/parser.js" type="module"></script>
+<script src="js/tools/image.js" type="module"></script>
+<script src="js/init.js" type="module"></script>
+<script src="js/voices/index.js" type="module"></script>
+<script src="js/voices/events.js" type="module"></script>
+<script src="js/voices/people/mv.js" type="module"></script>
+<script src="js/voices/people/rc.js" type="module"></script>
+<script src="js/voices/people/td.js" type="module"></script>
+<script src="js/voices/people/fm.js" type="module"></script>
+<script src="js/voices/people/scr.js" type="module"></script>
+<script src="js/voices/people/tc.js" type="module"></script>
+<script src="js/voices/people/md.js" type="module"></script>
+<script src="js/voices/people/lcc.js" type="module"></script>
+<script src="js/voices/people/gm.js" type="module"></script>
+<script src="js/voices/people/tm.js" type="module"></script>
+<script src="js/voices/people/ol.js" type="module"></script>
+<script src="js/voices/people/rcb.js" type="module"></script>
+<script src="js/voices/people/vc.js" type="module"></script>
+<script src="js/voices/people/sc.js" type="module"></script>
+<script src="js/voices/people/cs.js" type="module"></script>
+<script src="js/voices/people/cc.js" type="module"></script>
+<script src="js/voices/people/ab.js" type="module"></script>
+<script src="js/voices/init.js" type="module"></script>
+
+<script src="js/lang/sk-sk.js" type="module"></script>
+<script src="js/lang/pl-pl.js" type="module"></script>
+<script src="js/lang/fi-fi.js" type="module"></script>
+<script src="js/lang/ca-es.js" type="module"></script>
+<script src="js/lang/nl-nl.js" type="module"></script>
+<script src="js/lang/sr-sp.js" type="module"></script>
+<script src="js/lang/tr-tr.js" type="module"></script>
+<script src="js/lang/pt-pt.js" type="module"></script>
+<script src="js/lang/el-gr.js" type="module"></script>
+<script src="js/lang/cs-cz.js" type="module"></script>
+<script src="js/lang/ko-kr.js" type="module"></script>
+<script src="js/lang/no-no.js" type="module"></script>
+<script src="js/lang/it-it.js" type="module"></script>
+<script src="js/lang/vi-vn.js" type="module"></script>
+<script src="js/lang/sv-se.js" type="module"></script>
+<script src="js/lang/zh-tw.js" type="module"></script>
+<script src="js/lang/da-dk.js" type="module"></script>
+<script src="js/lang/ja-jp.js" type="module"></script>
+<script src="js/lang/he-il.js" type="module"></script>
+<script src="js/lang/uk-ua.js" type="module"></script>
+<script src="js/lang/ru-ru.js" type="module"></script>
+<script src="js/lang/es-es.js" type="module"></script>
+<script src="js/lang/fr-fr.js" type="module"></script>
+<script src="js/lang/hr-hr.js" type="module"></script>
+<script src="js/lang/hu-hu.js" type="module"></script>
+<script src="js/lang/de-de.js" type="module"></script>
+<script src="js/lang/fa-ir.js" type="module"></script>
+<script src="js/lang/ro-ro.js" type="module"></script>
+<script src="js/lang/en-us.js" type="module"></script>
+<script src="js/lang/zh-cn.js" type="module"></script>
+     <script src="js/timer+.js" type="module"></script>
 </head>
 <body>
 <div id="leftbar">

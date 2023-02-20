@@ -1,0 +1,7 @@
+export function guildFordMini() {
+    return scrMgr.formatScramble('<span class=\"multi\" data-multi>2) ${222so}</span>\n<span class=\"multi\" data-multi>3) ${333}</span>\n<span class=\"multi\" data-multi>4) ${[444,40]}</span>\n<span class=\"multi\" data-multi>5) ${["555",60]}</span>\n<span class=\"multi\" data-multi>\O\H)${333}</span>\n<span class=\"multi\" data-multi>\S\kb) ${skbso}</span>\n<span class=\"multi\" data-multi>\P\yr) ${["pyrso",10]}</span>\n<span class=\"multi\" data-multi>\C\l\k) ${clkwca}</span>\n<span class=\"multi\" data-multi>\M\g\m) ${["mgmp",70]}</span>\n<span class=\"multi\" data-multi>\S\qr) ${sqrs}</span>')
+}
+
+export function guildFordFull() {
+    return scrMgr.formatScramble('<span class=\"multi\" data-multi>2) ${222so}</span>\n<span class=\"multi\" data-multi>3) ${333}</span>\n<span class=\"multi\" data-multi>4) ${[444,40]}</span>\n<span class=\"multi\" data-multi>5) ${["555",60]}</span>\n<span class=\"multi\" data-multi>6) ${["666wca",80]}</span><span class=\"multi\" data-multi>7) ${["777wca",100]}</span>\n<span class=\"multi\" data-multi>\O\H) ${333}</span>\n<span class=\"multi\" data-multi>\S\kb) ${skbso}</span>\n<span class=\"multi\" data-multi>\P\yr) ${["pyrso",10]}</span>\n<span class=\"multi\" data-multi>\C\l\k) ${clkwca}</span>\n<span class=\"multi\" data-multi>\M\g\m) ${["mgmp",70]}</span>\n<span class=\"multi\" data-multi>\S\qr) ${sqrs}</span>\n<span class=\"multi\" data-multi>\Ft) ${333}</span>')
+}
